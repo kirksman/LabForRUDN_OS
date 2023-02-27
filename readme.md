@@ -41,57 +41,57 @@ _дисциплина: Операционные системы_
 
 **ТЕРМИНЫ:**
 
-**SSH** **(****secure ****shell**** )** - сетевой протокол прикладного уровня, позволяющий производить удалённое управление операционной системой и туннелирование TCP-соединений.
+**SSH** (**secure shell** ) - сетевой протокол прикладного уровня, позволяющий производить удалённое управление операционной системой и туннелирование TCP-соединений.
 
-**VM**** \ВМ** – virtualmachine (виртуальная машина)
+**VM\ВМ** – virtualmachine (виртуальная машина)
 
-**OS\ОС –** операционная система
+**OS\ОС** – операционная система
 
 **Linux** – семейство UNIX-подобных ОС на базе ядра Linux
 
 **ВИДЕО МАТЕРИАЛ:**
 
-![ВИДЕО](https://disk.yandex.ru/i/D9tO-_zByQ1F2w)
+_https://disk.yandex.ru/i/D9tO-_zByQ1F2w_
 
 Начало работы
 
 Перед началом необходимо запустить «Диспетчер Hyper-V»
 
-![Рис.1 Диспетчер виртуальных машин Hyper-V](https://github.com/kirksman/LabForRUDN_OS/blob/Lab#1/IMAGES/HV.png)
+![Рис.1 Диспетчер виртуальных машин Hyper-V](https://github.com/kirksman/LabForRUDN_OS/blob/Lab%231/IMAGES/HV.png)
 Рис.1 Диспетчер виртуальных машин Hyper-V
 
 Далее необходимо создать саму. Это можно сделать в панели «Дейстие». Выбрать пункт «создать» далее «виртуальная машина». После появится окно с мастером по созданию ВМ.
 
-![Рис.2 Мастер создания ВМ](https://github.com/kirksman/LabForRUDN_OS/blob/Lab#1/IMAGES/MasterCreateVM.png)
+![Рис.2 Мастер создания ВМ](https://github.com/kirksman/LabForRUDN_OS/blob/Lab%231/IMAGES/MasterCreateVM.png)
 Рис.2 Мастер создания ВМ
 
 Далее необходимо ввести имя ВМ и выбрать место хранения ВМ.
 
 Так же в настройках неободимо выбрать объем оперативной памяти в мегабайтах. Рекомендовано 4096МБ, что соответствует 4ГБ памяти.
 
-![Рис.3 Выделиние оперативной памяти для ВМ](https://github.com/kirksman/LabForRUDN_OS/blob/Lab#1/IMAGES/RAM_VM.png)
+![Рис.3 Выделиние оперативной памяти для ВМ](https://github.com/kirksman/LabForRUDN_OS/blob/Lab%231/IMAGES/RAM_VM.png)
 Рис.3 Выделиние оперативной памяти для ВМ
 
 Для корестной работы ВМ рекомендуется выполнить подключение к сети по средством выбора сетевой карты.
 
-![Рис.4 Выбор сетевой карты](https://github.com/kirksman/LabForRUDN_OS/blob/Lab#1/IMAGES/ListVirtualNC.png)
+![Рис.4 Выбор сетевой карты](https://github.com/kirksman/LabForRUDN_OS/blob/Lab%231/IMAGES/ListVirtualNC.png)
 Рис.4 Выбор сетевой карты
 
 Так же потребуется выделить хранилище под работу ОС.
 
-![Рис.5 Выделиние хранилища](https://github.com/kirksman/LabForRUDN_OS/blob/Lab#1/IMAGES/PointToDisk.png)
+![Рис.5 Выделиние хранилища](https://github.com/kirksman/LabForRUDN_OS/blob/Lab%231/IMAGES/PointToDisk.png)
 Рис.5 Выделиние хранилища
 
 В завершенни необходимо выбрать заранее скаченную сборку ОС.
 
-![Рис.6 Выбор ОС](https://github.com/kirksman/LabForRUDN_OS/blob/Lab#1/IMAGES/SelectOS.png)
+![Рис.6 Выбор ОС](https://github.com/kirksman/LabForRUDN_OS/blob/Lab%231/IMAGES/SelectOS.png)
 Рис.6 Выбор ОС
 
 Установка CentOS.
 
 После запуска ВМ необходимо выбрать «InstallCentOS 7»
 
-![Рис.7 Установка](https://github.com/kirksman/LabForRUDN_OS/blob/Lab#1/IMAGES/installOS.png)
+![Рис.7 Установка](https://github.com/kirksman/LabForRUDN_OS/blob/Lab%231/IMAGES/installOS.png)
 Рис.7 Установка
 
 После запуска и ожидания инициализации патетов установки ОС появляется возможность выбрать язык ОС.
@@ -99,10 +99,10 @@ _дисциплина: Операционные системы_
 ![Рис.8 Выбор языка](https://github.com/kirksman/LabForRUDN_OS/blob/Lab%231/IMAGES/SelectLang.png)
 Рис.8 Выбор языка
 
-![Рис. 9 Выбор компонентов](https://github.com/kirksman/LabForRUDN_OS/blob/Lab#1/IMAGES/SelectPoint.png)
+![Рис. 9 Выбор компонентов](https://github.com/kirksman/LabForRUDN_OS/blob/Lab%231/IMAGES/SelectPoint.png)
 Рис. 9 Выбор компонентов
 
-![](https://github.com/kirksman/LabForRUDN_OS/blob/Lab%231/IMAGES/DefaultUser.png)
+![Рис.10 Создание пользователя по умолчанию](https://github.com/kirksman/LabForRUDN_OS/blob/Lab%231/IMAGES/DefaultUser.png)
 Рис.10 Создание пользователя по умолчанию
 
 По окончанию установки ОС, она попросит выполнить перезагрузку.
